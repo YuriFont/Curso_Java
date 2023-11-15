@@ -19,5 +19,6 @@ public class App02
         System.out.printf("%s\n", a.Result());
         if (a.FinalGrade() < 60.00)
             System.out.printf("MISSING %.2f POINTS", a.Missed());
+        sc.close();
     }
 }

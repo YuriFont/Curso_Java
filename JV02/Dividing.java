@@ -1,6 +1,6 @@
-import java.util.Scanner;
+/*import java.util.Scanner;*/
 
-public class Dividing
+/*public class Dividing
 {
     public static void main(String args[])
     {
@@ -10,4 +10,4 @@ public class Dividing
 
         for
     }
-}
+}*/
