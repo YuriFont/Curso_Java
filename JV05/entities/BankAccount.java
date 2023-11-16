@@ -7,11 +7,22 @@ public class BankAccount
     private double accountValue;
     public static final int rate = 5;
 
+    public BankAccount(int accountNumber, String nameCardHolder)
+    {
+        this.accountNumber = accountNumber;
+        this.nameCardHolder = nameCardHolder;
+    }
+
     public BankAccount(int accountNumber, String nameCardHolder, double accountValue)
     {
         this.accountNumber = accountNumber;
         this.nameCardHolder = nameCardHolder;
         this.accountValue = accountValue;
+    }
+
+    public int getAccountNumber()
+    {
+        return (accountNumber);
     }
 
     public String getNameCardholder()

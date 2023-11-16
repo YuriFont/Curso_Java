@@ -15,8 +15,8 @@ public class App05
 
         int accountNumber;
         String nameCardHolder;
-        double valueAccount;
         char response;
+        BankAccount account;
 
         System.out.printf("Enter account number: ");
         accountNumber = sc.nextInt();
@@ -28,13 +28,12 @@ public class App05
         if (response == 'y')
         {
             System.out.printf("Enter initial deposit value: ");
-            valueAccount = sc.nextDouble();
+            double valueAccount = sc.nextDouble();
+            account = new BankAccount(accountNumber, nameCardHolder, valueAccount);
         }
         else
-            valueAccount = 0;
+            account = new BankAccount(accountNumber, nameCardHolder);
         System.out.println();
-
-        BankAccount account = new BankAccount(accountNumber, nameCardHolder, valueAccount);
 
         System.out.println("Acount data:");
         System.out.printf("%s\n", account.toString());
