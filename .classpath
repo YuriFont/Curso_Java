@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry excluding="JV04/ex00/|JV00/|JV03/ex01/|JV01/|JV03/ex00/|JV11/entities/|JV03/ex02/|JV02/|JV10/entities_enum/" kind="src" path=""/>
+	<classpathentry kind="src" path="JV00"/>
+	<classpathentry kind="src" path="JV01"/>
+	<classpathentry kind="src" path="JV02"/>
+	<classpathentry kind="src" path="JV03/ex00"/>
+	<classpathentry kind="src" path="JV03/ex01"/>
+	<classpathentry kind="src" path="JV03/ex02"/>
+	<classpathentry kind="src" path="JV04/ex00"/>
+	<classpathentry kind="src" path="JV10/entities_enum"/>
+	<classpathentry kind="src" path="JV11/entities"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
