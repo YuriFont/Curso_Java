@@ -5,6 +5,9 @@ import java.util.List;
 import java.util.Locale;
 import java.util.Scanner;
 
+import JV11.application.Employee;
+import JV11.application.OutsourcedEmployee;
+
 public class App11
 {
     public static void main(String args[])
@@ -41,7 +44,7 @@ public class App11
         System.out.println("PAYMENTS:");
         for(Employee emp : list)
         {
-
+            System.out.println(emp.getName() + " - $" + String.format("%.2f", emp.payment()));
         }
 
         sc.close();
