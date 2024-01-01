@@ -8,6 +8,16 @@ public class Reservation
     private Date checkIn;
     private Date checkOut;
 
+    public Reservation()
+    {}
+
+    public Reservation(Integer roomNumber, Date checkIn, Date checkOut)
+    {
+        this.roomNumber = roomNumber;
+        this.checkIn = checkIn;
+        this.checkOut = checkOut;
+    }
+
     public Integer getRoomNumber() {
         return roomNumber;
     }
@@ -20,16 +30,8 @@ public class Reservation
         return checkIn;
     }
 
-    public void setCheckIn(Date checkIn) {
-        this.checkIn = checkIn;
-    }
-
     public Date getCheckOut() {
         return checkOut;
-    }
-
-    public void setCheckOut(Date checkOut) {
-        this.checkOut = checkOut;
     }
 
     
