@@ -1,7 +1,6 @@
 package entities;
 
 import java.text.SimpleDateFormat;
-import java.util.Date;
 
 public class UsedProduct extends Product
 {
